@@ -10,5 +10,42 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #00000067;
+}
+
+.carousel{
+    white-space: nowrap;
+    cursor: pointer;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.carousel:first-child {
+    margin-left: 0px;
+}
+
+img {
+    height: 400px;
+    width: calc(46%/1);
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.fas {
+    color: white;
+    cursor: pointer;
+}
+
+.fa-long-arrow-left, .fa-long-arrow-right{
+    position: absolute;
+}
+
+.fa-long-arrow-right {
+    left: 76rem;
 }
